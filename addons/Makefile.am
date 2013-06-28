@@ -1,7 +1,3 @@
-if ADDON_MYTHTV
-          ADDITIONAL_SUBDIRS = pvr.mythtv.cmyth
-endif
-
 SUBDIRS = pvr.dvblink \
           $(ADDITIONAL_SUBDIRS)
 
