@@ -215,16 +215,9 @@ AC_CONFIG_FILES([Makefile \
                  lib/cmyth/Makefile \
                  lib/cmyth/libcmyth/Makefile \
                  lib/cmyth/librefmem/Makefile \
+				 lib/tinyxml2/Makefile \
+				 lib/libdvblinkremote/Makefile \
                  addons/Makefile \
-                 addons/pvr.demo/Makefile \
-                 addons/pvr.dvbviewer/Makefile \
-                 addons/pvr.fortherecord.argus/Makefile \
-                 addons/pvr.hts/Makefile \
-                 addons/pvr.mediaportal.tvserver/Makefile \
-                 addons/pvr.nextpvr/Makefile \
-                 addons/pvr.njoy/Makefile \
-                 addons/pvr.vuplus/Makefile \
-                 addons/pvr.vdr.vnsi/Makefile \
-                 addons/pvr.mythtv.cmyth/Makefile])
+                 addons/pvr.dvblink/Makefile])
 
 AC_OUTPUT
